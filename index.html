@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2N7HKV');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- サイト情報 -->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ページタイトルが入ります</title>
+  <meta name="description" content="説明文が入ります">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta name="viewport" content="width=1280" /> -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- OG -->
+  <meta property="og:url" content=" ページの URL" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content=" ページの タイトル" />
+  <meta property="og:description" content=" ページのディスクリプション" />
+  <meta property="og:site_name" content="サイト名" />
+  <meta property="og:image" content=" サムネイル画像の URL" />
+
+  <!-- favicon -->
+  <link rel="icon" href="./assets/img/common/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/common/favicon.ico">
+
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/111ed88bdd.js" crossorigin="anonymous"></script>
+
+  <!-- style sheets -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.min.css" />
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2N7HKV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="loader-bg" class="loader">
+    <div class="loader-wrapper">
+      <p class="loader__text">Loading</p>
+      <div class="loader-box">
+        <div class="loader-box__bar loader-box__bar--gray"></div>
+        <div class="loader-box__bar loader-box__bar--black"></div>
+      </div>
+    </div>
+  </div>
+  <main id="index">
+    <div class="scene-container">
+      <div class="all-bg">
+        <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+      </div>
+      <div class="scene-wrapper">
+        <div class="scroll-button isShow"></div>
+        <div class="scroll-button-top" id="scroll-button-top"></div>
+        <div class="scroll-text">SCROLL DOWN</div>  
+        <p class="modal-button" id="modal-button-2" data-modal-btn="2">CLICK HERE !</p>
+        <p class="modal-button" id="modal-button-4" data-modal-btn="2">CLICK HERE !</p>
+        <p class="modal-button" id="modal-button-5" data-modal-btn="5">CLICK HERE !</p>
+        <p class="modal-button" id="modal-button-7" data-modal-btn="7">CLICK HERE !</p>
+        <div id="scroll-nav">
+          <ul>
+            <li><a href="" class="active"><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+            <li><a href="" class=""><span></span></a></li>
+          </ul>
+        </div>
+        <div class="scene scene-first" id="scene-1">
+          <div class="scene-header">
+            <div class="h-bg">
+              <img src="./assets/img/third/black-bg.png" alt="" class="h-bg__image">
+            </div>
+  
+            <div class="scene-header-container">
+              <h1 class="header__logo">EISHIN</h1>
+              <a href="" class="header__link"><span>応募</span>はこちら</a>
+            </div>
+  
+          </div>
+          <div class="bg">
+            <img src="./assets/img/third/black-bg.png" alt="" class="bg__image">
+          </div>
+          <div class="first-contents" id="contents-1">
+            <img src="./assets/img/first/first-bg.png" alt="" class="first-contents__image forPc">
+            <!-- <img src="./assets/img/first/first-contents.png" alt="" class="first-contents__image forPc"> -->
+            <img src="./assets/img/first/first-contents-sp.png" alt="" class="first-contents__image--sp forSp" id="desk-1">
+            <img src="./assets/img/first/gear.gif" alt="" class="first-contens__gear" id="gear-1" >
+            <!-- <div class="scroll-text">SCROLL DOWN</div> -->
+          </div>
+        </div>
+        <!-- <div class="scene scene-first" id="scene1" data-1500="display: block; opacity: 1;" data-2500="opacity: 0; display: none;">
+          <div class="scene-header">
+            <div class="h-bg">
+              <img src="./assets/img/third/black-bg.png" alt="" class="h-bg__image">
+            </div>
+  
+            <div class="scene-header-container">
+              <h1 class="header__logo">EISHIN</h1>
+              <a href="" class="header__link"><span>応募</span>はこちら</a>
+            </div>
+  
+          </div>
+          <div class="bg">
+            <img src="./assets/img/third/black-bg.png" alt="" class="bg__image">
+          </div>
+  
+          <div class="first-contents" data-0="width: 100%; bottom: 0rem;" data-1000="width: 250%; bottom: -94rem;">
+            <img src="./assets/img/first/first-contents.png" alt="" class="first-contents__image forPc">
+            <img src="./assets/img/first/first-contents-sp.png" alt="" class="first-contents__image--sp forSp">
+            <img src="./assets/img/first/gear.gif" alt="" class="first-contens__gear forPc" data-0="width: 16.1rem; height: 5.6rem; top: 28%;" data-1000="width: 32.2rem; height: 11.2rem; top: 26%;">
+            <div class="gears-sm forSp">
+              <div class="gear-sm-left gear-sm"><img src="./assets/img/first/gear-sm-left.png" alt=""></div>
+              <div class="gear-sm-mid gear-sm"><img src="./assets/img/first/gear-sm-mid.png" alt=""></div>
+              <div class="gear-sm-right gear-sm"><img src="./assets/img/first/gear-sm-right.png" alt=""></div>
+            </div>
+            <div class="scroll-text">SCROLL DOWN</div>
+          </div>
+        </div> -->
+        <div class="scene scene-second" id="scene-2">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/second/office-bg.png" alt="" class="bg__image forPc">
+            <img src="./assets/img/second/sp-bg.png" alt="" class="bg__image forSp">
+          </div>
+          <div class="dt-container">
+            <div class="di" id="di-2">
+              <img src="./assets/img/second/daishi1.gif" alt="" class="di__gif">
+            </div>
+            <div class="ti" id="ti-2">
+              <img src="./assets/img/second/takumi1.gif" alt="" class="ti__gif">
+            </div>
+  
+            <div class="pop1" id="pop1-2">
+              <img src="./assets/img/second/pop1.png" alt="" class="pop1__image forSp">
+              <img src="./assets/img/second/pop1-pc.png" alt="" class="pop1__image forPc">
+            </div>
+            <div class="pop2" id="pop2-2">
+              <img src="./assets/img/second/pop2.png" alt="" class="pop2__image forSp">
+              <img src="./assets/img/second/pop2-pc.png" alt="" class="pop2__image forPc">
+            </div>
+          </div>
+          
+          <!-- <p class="modal-button">CLICK HERE !</p> -->
+          <!-- <p class="modal-button" id="modal-button-2" data-modal-btn="2">CLICK HERE !</p> -->
+          <div class="modal js-modal2" id="js-modal2" data-modal="2">
+            <div class="modal-container">
+              <div class="all-bg">
+                <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+              </div>
+              <div class="modal-wrapper">
+                <div class="modal-close__btn"></div>
+                  <p class="modal__text">株式会社EISHINは、<br class="forPc">代表の五十嵐大士・取締役CTOの五十嵐巧の兄弟で設立されました。<br>当初は６畳ほどの小さいマンションの一室でスタートしました。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="scene scene-second" data-2000="display: none; opacity: 0;" data-2500="opacity: 1;display:block;" data-7000="opacity: 1;display:block;" data-7500="opacity: 0; display: none;">
+          <div class="bg">
+            <img src="./assets/img/second/office-bg.png" alt="" class="bg__image">
+          </div>
+          <div class="dt-container">
+            <div class="di" data-3000="right: -100%;" data-4000="right: 17%;">
+              <img src="./assets/img/second/daishi1.gif" alt="" class="di__gif">
+            </div>
+            <div class="ti" data-3000="left: -100%;" data-4000="left: 12%;">
+              <img src="./assets/img/second/takumi1.gif" alt="" class="ti__gif">
+            </div>
+  
+            <div class="pop1" data-4500="opacity: 0;" data-5300="opacity: 1;" data-5800="opacity: 1;" data-6000="opacity: 0;">
+              <img src="./assets/img/second/pop1.png" alt="" class="pop1__image">
+            </div>
+            <div class="pop2" data-6200="opacity: 0;" data-6700="opacity: 1;">
+              <img src="./assets/img/second/pop2.png" alt="" class="pop2__image">
+            </div>
+          </div>
+  
+          <div class="modal js-modal1">
+            <div class="modal-container">
+              <div class="all-bg">
+                <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+              </div>
+              <div class="modal-wrapper">
+                <div class="modal-close__btn"></div>
+                <p class="modal__text">株式会社EISHINは、<br>
+                  代表の五十嵐大士・取締役CTOの五十嵐巧の兄弟で設立されました。<br>
+                  当初は６畳ほどの小さいマンションの一室でスタートしました。</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+  
+        <div class="scene scene-third" id="scene-3">
+          <div class="logo-banner" id="logo-3">
+            <img src="./assets/img/third/logo-banner.png" alt="" class="logo-banner__image">
+          </div>
+        </div>
+        <!-- <div class="scene scene-third" id="scene-3" data-7200="display: none; opacity: 0;" data-7700="display: block; opacity: 1;" data-10000="opacity: 1;" data-10500="opacity: 0; display: none;">
+          <div class="logo-banner" data-7800="top: 150%;" data-8500="top: 50%;" data-8000="opacity: 1;" data-8500="opacity: 0;">
+            <img src="./assets/img/third/logo-banner.png" alt="" class="logo-banner__image">
+          </div>
+        </div> -->
+  
+        <div class="scene scene-fourth" id="scene-4">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/fourth/fourth-bg.png" alt="" class="bg__image forPc">
+            <img src="./assets/img/fourth/sp-bg.png" alt="" class="bg__image forSp">
+          </div>
+  
+          <div class="fourth-container">
+            <div class="plant forPc">
+              <img src="./assets/img/fourth/fourth-plant.png" alt="" class="plant__image">
+            </div>
+  
+            <div class="di" id="di-4">
+              <img src="./assets/img/fourth/dai2-1.gif" id="di-g-4" alt="" class="di__gif">
+              <img src="./assets/img/fourth/dai2-2.gif" id="di-p-4" alt="" class="di__gif di__gif--phone">
+            </div>
+  
+            <div class="ti" id="ti-4">
+              <img src="./assets/img/fourth/ti2.gif" alt="" class="ti__gif" id="ti-g">
+              <img src="./assets/img/fourth/ti-pen.png" alt="" id="pen-4" class="ti__pen">
+              <img src="./assets/img/fourth/ti-cup.png" alt="" id="cup-4" class="ti__cup">
+              <img src="./assets/img/fourth/ti-phone.png" alt="" id="ti-p-4" class="ti__phone">
+            </div>
+  
+            <div class="pop" id="pop-4">
+              <img src="./assets/img/fourth/pop.png" alt="" class="pop__image forPc">
+              <img src="./assets/img/fourth/pop-sp.png" alt="" class="pop__image forSp">
+            </div>
+  
+            <div class="ss" id="ss-4">
+              <img src="./assets/img/fourth/ss.gif" alt="" class="ss__gif">
+              <div id="ss-c-4">
+                <img src="./assets/img/fourth/ss-cup-pen.png" alt="" class="ss__cup-pen" >
+              </div>
+            </div>
+  
+            <div class="bg-box forPc" id="big-box-4">
+              <img src="./assets/img/fourth/bg-box.png" alt="" class="bg-box__image">
+            </div>
+  
+            <div class="bg-chestbox" id="chestbox-4">
+              <img src="./assets/img/fourth/bg-chestbox.png" alt="" class="bg-chestbox__image">
+            </div>
+  
+            <div class="calendar" id="calendar-4">
+              <img src="./assets/img/fourth/calendar.png" alt="" class="calendar__image">
+            </div>
+  
+            <div class="poster" id="poster-4">
+              <img src="./assets/img/fourth/poster.png" alt="" class="poster__image">
+            </div>
+  
+            <div class="small-plant forPc" id="plant-4">
+              <img src="./assets/img/fourth/small-plant.png" alt="" class="small-plant__image">
+            </div>
+  
+            <div class="book" id="book-4">
+              <img src="./assets/img/fourth/book.png" alt="" class="book__image">
+            </div>
+  
+            <div class="cactus forPc" id="cactus-4">
+              <img src="./assets/img/fourth/cactus.png" alt="" class="cactus__image">
+            </div>
+  
+            <div class="yn" id="yn-4">
+              <img src="./assets/img/fourth/yn.gif" alt="" class="yn__gif">
+            </div>
+            <!-- <p class="modal-button" id="modal-button-4" data-modal-btn="2">CLICK HERE !</p> -->
+            <div class="modal js-modal4" id="js-modal4" data-modal="4">
+              <div class="modal-container">
+                <div class="all-bg">
+                  <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+                </div>
+                <div class="modal-wrapper">
+                  <div class="modal-close__btn"></div>
+                  <p class="modal__text">取締役の中田、デザイナーの篠崎が社員としてJOIN！<br>そこから順調に成長し、その後、人数がどんどん増えてきました。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="scene scene-fourth" id="scene-4" data-10300="display: none; opacity: 0;" data-10800="display: block; opacity: 1;" data-21500="opacity: 1;" data-23000="opacity: 0; display: none;">
+          <div class="bg">
+            <img src="./assets/img/fourth/fourth-bg.png" alt="" class="bg__image forPc">
+          </div>
+  
+          <div class="fourth-container">
+            <div class="plant forPc">
+              <img src="./assets/img/fourth/fourth-plant.png" alt="" class="plant__image">
+            </div>
+  
+            <div class="di" id="di-4" data-11300="right: -128rem;" data-12300="right: 36.2rem;">
+              <img src="./assets/img/fourth/dai2-1.gif" id="di-g-4" alt="" class="di__gif" data-12800="opacity: 1;" data-12900="opacity: .25;" data-13000="opacity: 0;">
+              <img src="./assets/img/fourth/dai2-2.gif" id="di-p-4" alt="" class="di__gif di__gif--phone" data-12799="opacity :0;" data-12800="opacity: .5;" data-13000="opacity: 1;">
+            </div>
+  
+            <div class="ti" id="ti-4" data-11300="left: -1280px;" data-12300="left: 319px;">
+              <img src="./assets/img/fourth/ti2.gif" alt="" class="ti__gif" id="ti-g">
+              <img src="./assets/img/fourth/ti-pen.png" alt="" id="pen-4" class="ti__pen" data-16500="opacity: 0" data-17000="opacity: 1;">
+              <img src="./assets/img/fourth/ti-cup.png" alt="" id="cup-4" class="ti__cup" data-19000="opacity: 0;" data-20000="opacity: 1;">
+              <img src="./assets/img/fourth/ti-phone.png" alt="" id="ti-p-4" class="ti__phone" data-19000="opacity: 0;" data-20000="opacity: 1;">
+            </div>
+  
+            <div class="pop" id="pop-4" data-13500="opacity: 0;" data-14000="opacity: 1;" data-15000="opacity: 1;" data-15500="opacity: 0;">
+              <img src="./assets/img/fourth/pop.png" alt="" class="pop__image">
+            </div>
+  
+            <div class="ss" id="ss-4" data-16500="left: -128rem;" data-17500="left: 4.9rem;">
+              <img src="./assets/img/fourth/ss.gif" alt="" class="ss__gif">
+              <img src="./assets/img/fourth/ss-cup-pen.png" alt="" class="ss__cup-pen" id="ss-c-4"  data-19000="opacity: 0;" data-20000="opacity: 1;">
+            </div>
+  
+            <div class="bg-box" id="big-box-4" data-19500="opacity: 0;" data-20000="opacity: 1;">
+              <img src="./assets/img/fourth/bg-box.png" alt="" class="bg-box__image">
+            </div>
+  
+            <div class="bg-chestbox" id="chestbox-4" data-19500="opacity: 0;" data-20500="opacity: 1;">
+              <img src="./assets/img/fourth/bg-chestbox.png" alt="" class="bg-chestbox__image">
+            </div>
+  
+            <div class="calendar" id="calendar-4" data-18000="opacity: 0;" data-19000="opacity: 1;">
+              <img src="./assets/img/fourth/calendar.png" alt="" class="calendar__image">
+            </div>
+  
+            <div class="poster" id="poster-4" data-18500="opacity: 0;" data-19500="opacity: 1;">
+              <img src="./assets/img/fourth/poster.png" alt="" class="poster__image">
+            </div>
+  
+            <div class="small-plant" id="plant-4" data-20000="opacity: 0;" data-21000="opacity: 1;">
+              <img src="./assets/img/fourth/small-plant.png" alt="" class="small-plant__image">
+            </div>
+  
+            <div class="book" id="book-4" data-20500="opacity: 0;" data-21500="opacity: 1;">
+              <img src="./assets/img/fourth/book.png" alt="" class="book__image">
+            </div>
+  
+            <div class="cactus" id="cactus-4" data-19500="opacity: 0;" data-20500="opacity: 1;">
+              <img src="./assets/img/fourth/cactus.png" alt="" class="cactus__image">
+            </div>
+  
+            <div class="yn" id="yn-4" data-15000="right: -128rem;" data-16000="right: 2rem;">
+              <img src="./assets/img/fourth/yn.gif" alt="" class="yn__gif">
+            </div>
+          </div>
+        </div> -->
+  
+        <div class="scene scene-fifth" id="scene-5">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/fifth/fifth-bg.png" alt="" class="bg__image forPc">
+            <img src="./assets/img/fifth/sp-bg.png" alt="" class="bg__image forSp">
+          </div>
+          <div class="sales" id="sales-5">
+            <img src="./assets/img/fifth/sales.gif" alt="" class="sales__gif">
+          </div>
+          <div class="pop" id="pop-5">
+            <div class="pop-bg">
+              <img src="./assets/img/fifth/pop.png" alt="" class="forPc">
+              <img src="./assets/img/fifth/sp-pop.png" alt="" class="forSp">
+            </div>
+            <div class="pop-content">
+              <div class="pop-content__text1">初の自社サービス</div>
+              <div class="pop-content__logo"><img src="./assets/img/fifth/logo.png" alt=""></div>
+              <div class="pop-content__text2">リリース<span class="excla">!</span></div>
+            </div>
+            <a class="pop-btn"><span>詳しくみる</span></a>
+          </div>
+          <!-- <div class="fifth-pop" id="pop-5">
+            <a href="#">
+              <img src="./assets/img/fifth/fifth-pop.png" alt="" class="fifth-pop__image">
+            </a>
+          </div> -->
+          <!-- <p class="modal-button" id="modal-button-5" data-modal-btn="5">CLICK HERE !</p> -->
+          <div class="modal js-modal5" id="js-modal5" data-modal="5">
+            <div class="modal-container">
+              <div class="all-bg">
+                <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+              </div>
+              <div class="modal-wrapper">
+                <div class="modal-close__btn"></div>
+                <p class="modal__text">GOODFORJOBの説明入る<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br>テキステキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="scene scene-fifth" id="scene-5" data-24000="display: none; opacity: 0;" data-25000="display: block; opacity: 1;" data-29500="opacity: 1; display:block;" data-30000="opacity: 0; display: none;">
+          <div class="bg">
+            <img src="./assets/img/fifth/fifth-bg.png" alt="" class="bg__image">
+          </div>
+          <div class="sales" id="sales-5" data-26000="left: -128rem;" data-27000="left: 17.2rem;">
+            <img src="./assets/img/fifth/sales.gif" alt="" class="sales__gif">
+          </div>
+          <div class="fifth-pop" id="pop-5" data-28000="right: -128rem;" data-29000="right: 1.2rem">
+            <a href="#">
+              <img src="./assets/img/fifth/fifth-pop.png" alt="" class="fifth-pop__image">
+            </a>
+          </div>
+        </div> -->
+  
+        <div class="scene scene-sixth" id="scene_6">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/sixth/sixth-bg.png" alt="" class="bg__image forPc">
+            <img src="./assets/img/sixth/sp-bg.png" alt="" class="bg__image forSp">
+          </div>
+          <div class="sixth-container">
+            <div class="ek" id="ek-6">
+              <img src="./assets/img/sixth/ek.gif" alt="">
+            </div>
+            <div class="yk" id="yk-6">
+              <img src="./assets/img/sixth/yk.gif" alt="">
+            </div>
+            <div class="sixth-pop" id="pop-6">
+              <img src="./assets/img/sixth/pop.png" alt="" class="forPc">
+              <img src="./assets/img/sixth/pop-sp.png" alt="" class="forSp">
+            </div>
+            <div class="dog1" id="dog1-6">
+              <img src="./assets/img/sixth/dog1.png" alt="">
+            </div>
+            <div class="dog2" id="dog2-6">
+              <img src="./assets/img/sixth/dog2.png" alt="">
+            </div>
+            <div class="dog3" id="dog3-6">
+              <img src="./assets/img/sixth/dog3.png" alt="">
+            </div>
+            <div class="dog4" id="dog4-6">
+              <img src="./assets/img/sixth/dog4.png" alt="">
+            </div>
+            <div class="slide" id="slide-6">
+              <img src="./assets/img/sixth/slide-test.png" alt="">
+            </div>
+            <div class="dog-hand1" id="dog-hand1-6">
+              <img src="./assets/img/sixth/dog-hand1.png" alt="">
+            </div>
+            <div class="dog-hand2" id="dog-hand2-6">
+              <img src="./assets/img/sixth/dog-hand2.png" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <div class="scene scene-seventh" id="scene-7">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/seventh/seven-bg.png" alt="" class="bg__image forPc">
+            <img src="./assets/img/seventh/sp-bg.png" alt="" class="bg__image forSp">
+          </div>
+          <div class="seventh-container">
+            <div class="di" id="di-7">
+              <img src="./assets/img/seventh/di.gif" alt="">
+            </div>
+            <div class="pop" id="pop-7">
+              <img src="./assets/img/seventh/pop.png" alt="" class="forPc">
+              <img src="./assets/img/seventh/pop-sp.png" alt="" class="forSp">
+            </div>
+            <div class="ta" id="ta-7">
+              <img src="./assets/img/seventh/ta.gif" alt="">
+            </div>
+            <div class="yy" id="yy-7">
+              <img src="./assets/img/seventh/yy.gif" alt="">
+            </div>
+            <div class="hi" id="hi-7">
+              <img src="./assets/img/seventh/hi.gif" alt="">
+            </div>
+            <div class="kt" id="kt-7">
+              <img src="./assets/img/seventh/kt.gif" alt="">
+            </div>
+            <div class="eno" id="eno-7">
+              <img src="./assets/img/seventh/eno.gif" alt="">
+            </div>
+            <div class="db1" id="db1-7">
+              <img src="./assets/img/seventh/db1.png" alt="">
+            </div>
+            <div class="db2 forPc" id="db2-7">
+              <img src="./assets/img/seventh/db2.png" alt="">
+            </div>
+            <div class="db3 forPc" id="db3-7">
+              <img src="./assets/img/seventh/db3.png" alt="">
+            </div>
+            <!-- <p class="modal-button" id="modal-button-7" data-modal-btn="7">CLICK HERE !</p> -->
+            <div class="modal js-modal7" id="js-modal7" data-modal="7">
+              <div class="modal-container">
+                <div class="all-bg">
+                  <img src="./assets/img/third/black-bg.png" alt="" class="all-bg__image">
+                </div>
+                <div class="modal-wrapper">
+                  <div class="modal-close__btn"></div>
+                  <p class="modal__text">社員・インターン共に急増し、<br class="forSp">初のオフィス移転を実施。<br>現在のオフィスも既に手狭に…。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="scene scene-eighth" id="scene-8">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/eighth/eight-bg.png" alt="" class="forPc">
+            <img src="./assets/img/eighth/sp-bg.png" alt="" class="forSp">
+          </div>
+          <div class="eighth-container">
+            <div class="logo" id="logo-8"><img src="./assets/img/eighth/logo.png" alt=""></div>
+            <div class="texts">
+              <div class="text1" id="text1-8">リリース半年<span class="text1--sm">で</span></div>
+              <div class="text2" id="text2-8">・導入<span class="text2--big">100社</span>越え</div>
+              <div class="text3" id="text3-8">・1期目売上<span class="text3--big">1億円</span>突破</div>
+              <div class="text4" id="text4-8">・ペットの新規事業も<span class="text4--big">推進中</span></div>
+            </div>
+          </div>
+          <div class="marker show-3d" id="marker-8">
+            <div><img src="./assets/img/eighth/marker-line.png" alt=""></div>
+          </div>
+        </div>
+  
+        <div class="scene scene-ninth" id="scene-9">
+          <!-- <div class="scroll-button"></div> -->
+          <div class="bg">
+            <img src="./assets/img/ninth/bg.png" alt="" class="forPc">
+            <img src="./assets/img/ninth/sp-bg.png" alt="" class="forSp">
+          </div>
+          <div class="ninth-container">
+            <div class="garally" id="garally-9"><img src="./assets/img/ninth/garally.png" alt=""></div>
+            <div class="di" id="di-9"><img src="./assets/img/ninth/di.gif" alt=""></div>
+            <div class="text1 text" id="text1-9">
+              <div class="text1__1">１期目：売上１億突破</div>
+              <div class="text1__2">２期目：売上２．４億を目指そう！</div>
+              <div class="text1__3">VisionやMissionを策定しました！</div>
+            </div>
+            <div class="text2 text" id="text2-9">
+              <div class="text2__logo"><img src="./assets/img/ninth/logo.png" alt=""></div>
+              <div class="text2__1 text2__text">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>導入社数増加のために採用強化中！</span>
+              </div>
+              <div class="text2__2 text2__text">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>お客様に満足して頂けるために<br>カスタマーサクセス強化中！</span>
+              </div>
+              <div class="text2__3 text2__text">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>更なる機能開発も推進中！</span>
+              </div>
+              <div class="text2__4 text2__text">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>デザイナー・ディレクター募集強化中！</span>
+              </div>
+            </div>
+            <div class="text3 text" id="text3-9">
+              <div class="title">ペット新規事業</div>
+              <div class="text3__text text3__1">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>事業が順調なため、採用強化中！</span>
+              </div>
+              <div class="text3__text text3__2">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>ペットで新たなサービスを２つ開発中！</span>
+              </div>
+            </div>
+            <div class="text4 text" id="text4-9">
+              <div class="title">その他新規事業</div>
+              <div class="text3__text text3__1">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>エンジニア育成事業　PMF検証中！</span>
+              </div>
+              <div class="text3__text text3__2">
+                <div class="check"><img src="./assets/img/ninth/check.png" alt=""></div>
+                <span>スポーツ産業向け事業　立ち上げ検討！</span>
+              </div>
+            </div>
+            <div class="pyramid text" id="pyramid-9">
+              <div class="pyramid__img"><img src="./assets/img/ninth/pyramid.png" alt=""></div>
+              <a href="#" class="btn"><span>詳しくみる</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="scene-tenth" id="scene-10">
+          <div class="tenth-container">
+            <!-- <div class="scroll-button-top" id="scroll-button-top"></div> -->
+            <div class="gfj-title">会社紹介資料を読んで<span class="gfj-title__big">EISHIN</span><br class="forSp">をもっと知ろう。</div>
+            <!-- <script id="gfj_create_iframe_script" style="width: 79.3rem;height: 6.25rem;" src="//good-for-job.com/js/user/slide_player/create_iframe.js" data-src="//good-for-job.com/slide-player/71" data-ratio="1.4124137931034" data-company_url="https://good-for-job.com/company/71" data-title="株式会社EISHIN 採用ピッチ資料｜GOOD FOR JOB"></script> -->
+            <script id="gfj_create_iframe_script" src="//good-for-job.com/js/user/slide_player/create_iframe.js" data-src="//good-for-job.com/slide-player/71" data-ratio="1.4124137931034" data-company_url="https://good-for-job.com/company/71" data-title="株式会社EISHIN 採用ピッチ資料｜GOOD FOR JOB"></script>
+            <div class="pop">
+              <div class="pop-title">
+                新しい事業・新しい価値を創りたい方<br>
+              <span class="pop-title__mid">是非</span>
+              <span class="pop-title__big">ご応募ください！</span>
+              </div>
+              <a class="detail-btn"><span>詳しくみる</span></a>
+              <a class="btn-coporate"><span>コーポレートサイト</span></a>
+            </div>
+            <div class="members">
+              <!-- <img src="./assets/img/tenth/members.png" alt=""> -->
+              <img src="./assets/img/tenth/all-pc.gif" alt="" class="forPc">
+              <img src="./assets/img/tenth/all-sp.gif" alt="" class="forSp">
+            </div>
+          </div>
+        </div>
+      </div><!--scene-wrapper-->
+    </div>
+  </main>
+
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <!-- sceneごとにdata-を配置するためのjs -->
+  <!-- <script src="./assets/js/index.js"></script> -->
+  <script src="./assets/js/scene/scene1.js"></script>
+  <script src="./assets/js/scene/scene2.js"></script>
+  <script src="./assets/js/scene/scene3.js"></script>
+  <script src="./assets/js/scene/scene4.js"></script>
+  <script src="./assets/js/scene/scene5.js"></script>
+  <script src="./assets/js/scene/scene6.js"></script>
+  <script src="./assets/js/scene/scene7.js"></script>
+  <script src="./assets/js/scene/scene8.js"></script>
+  <script src="./assets/js/scene/scene9.js"></script>
+  <script src="./assets/js/scene/scene10.js"></script>
+  
+  
+  
+  <!--各ページ固有のjsを読み込む-->
+  <script type="text/javascript" src="./assets/js/skrollr.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+  <!-- <script type="text/javascript">
+    var s = skrollr.init({
+      easing:'swing',
+      smoothScrolling: true,
+    });
+    $(window).scroll(function() {
+      var nowPos = $(this).scrollTop();
+    });
+
+    //自動再生
+    $('.scroll-button').click(function (e) {
+      // var nowPos = $(window).scrollTop();
+      var nowPos = s.getScrollTop();
+      var goal = window.scene10js.stay;
+      var distance = goal - nowPos;
+      // 速度を定数にして、durationを求めることにより一定にする
+      var speed = 0.9;
+      var durationTime = distance / speed;
+      console.log('durationTime' + durationTime);
+      console.log('goal' + goal);
+      console.log('speed' + speed);
+      console.log('nowPos' + nowPos);
+      console.log('distance' + distance);
+      console.log('durationTime' + durationTime);
+      s.animateTo(goal, {
+        duration: durationTime,
+      });
+      e.stopPropagation();
+      $('body').click(function() {
+        if(s.isAnimatingTo()) {
+          s.stopAnimateTo();
+        }
+      });
+    });
+    //トップへ戻る
+    $('#scroll-button-top').click(function(e){
+      s.animateTo(0, {
+        duration: 5000,
+      });
+      e.stopPropagation();
+      $('body').click(function() {
+        if(s.isAnimatingTo()) {
+          s.stopAnimateTo();
+        }
+      });
+    })
+  </script> -->
+</body>
+
+</html>
+
+
+
+
+
+
+<!---
+<div class="scene scene-sixth" data-32000="display: none; opacity: 0;" data-33000="display: block; opacity: 1;" data-42000="opacity:1; display:block;" data-43000="opacity:0; display:none;" id="scene_6">
+  <div class="bg">
+    <img src="./assets/img/sixth/sixth-bg.png" alt="" class="bg__image">
+  </div>
+  <div class="sixth-container">
+    <div class="ek" id="ek_6" data-34000="left: -100rem;" data-35000="left: 46rem" data-38900="visibility: visible; opacity: 1;" data-39000=" visibility:hidden; opacity:0;">
+      <img src="./assets/img/sixth/ek.gif" alt="">
+    </div>
+    <div class="yk" id="yk-6" data-34000="right: -100rem;" data-35000="right: 47rem" data-38900="visibility: visible; opacity: 1;" data-39000=" visibility:hidden; opacity:0;">
+      <img src="./assets/img/sixth/yk.gif" alt="">
+    </div>
+    <div class="sixth-pop" id="pop-6" data-36000="opacity:0;" data-36500="opacity: 1;" data-38900="visibility: visible; opacity: 1;" data-39000="visibility:hidden; opacity:0;">
+      <img src="./assets/img/sixth/pop.png" alt="">
+    </div>
+    <div class="dog1" id="dog1-6" data-37000="left:-100rem;" data-37500="left: 18.6rem;" data-38900="visibility: visible; opacity: 1;" data-39000=" visibility:hidden; opacity:0;">
+      <img src="./assets/img/sixth/dog1.png" alt="">
+    </div>
+    <div class="dog2" id="dog2-6" data-36500="left: -100rem;" data-37500="left: 36.9rem" data-38900="visibility: visible; opacity: 1;" data-39000=" visibility:hidden; opacity:0;">
+   data-36000="left: -128rem;" data-37000="left: 36.9rem"
+      <img src="./assets/img/sixth/dog2.png" alt="">
+    </div>
+    <div class="dog3" id="dog3-6" data-36500="right: -100rem" data-37500="right: 35.1rem;" data-38900="visibility: visible; opacity: 1;" data-39000=" visibility:hidden; opacity:0;">
+      <img src="./assets/img/sixth/dog3.png" alt="">
+    </div>
+    <div class="dog4" id="dog4-6" data-37000="right: -100rem" data-37500="right: 16.3rem;">
+      <img src="./assets/img/sixth/dog4.png" alt="">
+    </div>
+    <div class="slide" id="slide-6" data-38000="transform: translate(-200%,200%);" data-39000="transform: translate(-50%,-50%);">
+      <img src="./assets/img/sixth/slide.png" alt="">
+    </div>
+    <div class="dog-hand1" id="dog-hand1-6" data-39500="transform: translate(-200%,200%);" data-40000="transform: translate(0,0);">
+      <img src="./assets/img/sixth/dog-hand1.png" alt="">
+    </div>
+    <div class="dog-hand2" id="dog-hand2-6" data-40000="transform: translate(-200%,200%);" data-40500="transform: translate(0,0);">
+      <img src="./assets/img/sixth/dog-hand2.png" alt="">
+    </div>
+  </div>
+</div>
+
+-->

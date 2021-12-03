@@ -1,0 +1,90 @@
+/*********************************************/
+/*               DIN                          */
+/*********************************************/
+// $din: "DIN Alternate Bold",sans-serif;
+$din: "DIN Alternate",sans-serif;
+// @font-face {
+//   font-family: 'DIN Alternate Bold';
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url('http://127.0.0.1:5500/assets/fonts/DINAlternate-Bold.woff') format('woff');
+// }
+
+
+/*********************************************/
+/*                筑紫A丸ゴシック              */
+/*********************************************/
+@font-face {
+  font-family: "tsukushi";
+  src: url("https://eishin-develop.sakura.ne.jp/eishinLP/assets/fonts/TsukushiAMaruGothic.woff2")
+      format(
+        "woff2"
+      ),
+    url("https://eishin-develop.sakura.ne.jp/eishinLP/assets/fonts/TsukushiAMaruGothic.woff")
+      format(
+        "woff"
+      );
+  // src: url('/assets/fonts/TsukushiAMaruGothic.woff2') format('woff2'),
+  //   url('/assets/fonts/TsukushiAMaruGothic.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "tsukushi";
+  src: url("https://eishin-develop.sakura.ne.jp/eishinLP/assets/fonts/TsukushiAMaruGothic_bold.woff2")
+      format(
+        "woff2"
+      ),
+    url("https://eishin-develop.sakura.ne.jp/eishinLP/assets/fonts/TsukushiAMaruGothic_bold.woff")
+      format(
+        "woff"
+      );
+  // src: url('/assets/fonts/TsukushiAMaruGothic_bold.woff2') format('woff2'),
+  //   url('/assets/fonts/TsukushiAMaruGothic_bold.woff') format('woff');
+  font-weight: bold;
+}
+
+/*********************************************/
+/*                    SCSS                   */
+/*********************************************/
+body {
+  // font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+  //   "游ゴシック", "Yu Gothic", "Noto Sans JP", sans-serif;
+  font-family: "tsukushi";
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.for {
+  &Sp {
+    display: none !important;
+  }
+  &Pc {
+    display: block !important;
+  }
+}
+
+/*********************************/
+/*            PC Base            */
+/*********************************/
+
+/*********************************/
+/*         PC Responsive         */
+/*********************************/
+
+@media (min-width: 769px) and (max-width: 1279px) {
+}
+
+/*********************************/
+/*               SP              */
+/*********************************/
+@media (max-width: 768px) {
+  .for {
+    &Sp {
+      display: block !important;
+    }
+    &Pc {
+      display: none !important;
+    }
+  }
+}
+
+

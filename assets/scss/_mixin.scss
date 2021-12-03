@@ -1,0 +1,87 @@
+/*********************************/
+/*           animation            */
+/*********************************/
+@mixin animation(
+  $name,
+  $duration: 1s,
+  $timing-function: ease,
+  $delay: 0s,
+  $iteration-count: 1,
+  $direction: normal,
+  $fill-mode : forwards,
+){
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-timing-function: $timing-function;
+  animation-delay: $delay;
+  animation-iteration-count: $iteration-count;
+  animation-direction: $direction;
+  animation-fill-mode: $fill-mode;
+}
+
+/*********************************/
+/*           breakpoints          */
+/*********************************/
+
+$breakpoints: (
+  'mid1' : '(max-width: 1279px)', 
+  'mid2' : '(max-width: 960px)',
+  'sp1' : '(max-width: 768px)',
+  'sp2' : '(max-width: 375px)',
+) !default;
+
+@mixin br($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+/*********************************/
+/*           z-index            */
+/*********************************/
+$layer : (
+  '1-btn' : 1,
+  '1-gear' : 2,
+  '6-yoki' : 10,
+  '6-eiken' : 10,
+  '6-pop' : 10,
+  '6-dog' : 10,
+  '6-slide' : 20,
+  '6-hand' : 30,
+  '7-people' : -1,
+  '7-db' : -2,
+  '7-pop' : -1,
+  '8-logo' : 1,
+  '9-di' : -1,
+);
+
+@mixin z-index($key) {
+  z-index : map_get($layer,$key)
+}
+
+@mixin background(
+  $color,
+  $image,
+  $position,
+  $attachment : scroll,
+  $repeat : no-repeat,
+  $size:cover,
+  ) {
+  background-attachment: $attachment;
+  background-repeat : $repeat;
+  background-color: $color;
+  background-image: $image;
+  background-position: $position;
+  background-size: $size;
+}
+
+
+/*
+background-attachment: scroll;
+background-repeat : no-repeat;
+background-color: #ABCEE5;
+background-image: url('../img/tenth/bg.png');
+background-position: top center;
+background-size: cover;
+*/
+
